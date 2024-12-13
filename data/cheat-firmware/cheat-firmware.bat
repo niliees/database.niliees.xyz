@@ -33,7 +33,7 @@ set "RED=%ESC%[31m"
 set "RESET=%ESC%[0m"
 
 REM Add download status tracker
-set "firmware_downloaded=1"
+set "firmware_downloaded=0"
 
 REM Add status trackers for assets
 set "aimbot_installed=0"
