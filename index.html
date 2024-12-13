@@ -6,14 +6,29 @@
     <link rel="stylesheet" href="styles.css">
     <title>Database Overview</title>
     <style>
-      .button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #007BFF;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 5px;
-      }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -22,11 +37,12 @@
     <section>
         <ul>
             <li>
-              <a href="/data/websites">All Websites</a>
-              <a href="/data/cheat-firmware/UI.html">Cheat Firmware</a>
+                <a href="/data/websites" class="button">All Websites</a>
+            </li>
+            <li>
+                <a href="/data/cheat-firmware/UI.html" class="button">Cheat Firmware</a>
             </li>
         </ul>
     </section>
-
 </body>
 </html>
