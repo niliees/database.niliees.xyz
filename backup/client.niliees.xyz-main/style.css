@@ -1,0 +1,49 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.cmd {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 2px solid #00ff00;
+    width: 600px;
+    margin: 0 auto;
+}
+
+input, button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    border: 1px solid #00ff00;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: black;
+}
+
+.premium {
+    color: #00ff00;
+}
+
+.invalid {
+    color: red;
+}
+
+#menu {
+    margin-top: 20px;
+}
+
+#firmwareStatus, #availableHacks {
+    margin: 10px 0;
+}

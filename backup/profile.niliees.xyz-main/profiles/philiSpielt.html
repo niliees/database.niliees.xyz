@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhiliSpielt - Profile</title>
+    <style>
+        :root {
+            --matrix-green: #0f0;
+            --dark-green: #003300;
+            --glow-green: #00ff00;
+            --dark-bg: #000000;
+            --cyber-blue: #00ffff;
+            --neon-purple: #ff00ff;
+            --bright-yellow: #ffff00;
+            --terminal-white: #e0e0e0;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--matrix-green);
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .profile-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        .profile-card {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.2s;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .profile-detail {
+            background: rgba(0, 15, 0, 0.9);
+            border: 1px solid var(--cyber-blue);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 20px var(--cyber-blue);
+            backdrop-filter: blur(10px);
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .profile-image {
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 2px solid var(--cyber-blue);
+            box-shadow: 0 0 15px var(--cyber-blue);
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: var(--cyber-blue);
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            text-shadow: 0 0 10px var(--cyber-blue);
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            background: rgba(0, 15, 0, 0.8);
+            padding: 5px 15px;
+            border-radius: 15px;
+            color: var(--cyber-blue);
+            border: 1px solid var(--cyber-blue);
+            text-shadow: 0 0 5px var(--cyber-blue);
+        }
+
+        h1, h2 {
+            color: var(--bright-yellow);
+            text-shadow: 0 0 10px var(--bright-yellow);
+        }
+
+        .title {
+            color: var(--neon-purple);
+            text-shadow: 0 0 5px var(--neon-purple);
+        }
+
+        p {
+            color: var(--terminal-white);
+            text-shadow: 0 0 5px var(--terminal-white);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-detail">
+            <a href="https://profile.niliees.xyz" class="back-button">← Back to Directory</a>
+            <div class="profile-header">
+                <img src="https://database.niliees.xyz/data/pictures/profile/philipp.png" alt="Philipp" class="profile-image"v style="width: 150px; height: 150px;">
+                <h1>PhiliSpielt</h1>
+                <p class="title">Streamer</p>
+            </div>
+            <div class="profile-info">
+                <h2>About Me</h2>
+                <p>Hi, I'm PhiliSpielt! I am a Streamer</p>
+                
+                <h2>Contact</h2>
+                <p>TikTok1: hte_philisvalo
+                   TikTok2: Apfel
+                   Twitch: philiminecraft
+                </p>
+                
+                <h2>Links</h2>
+                <ul class="skills-list">
+                    <li><a href="https://www.tiktok.com/@hte_philisvalo">TikTok1</a></li>
+                    <li><a href="https://www.tiktok.com/@hundeschnauze26">Snapchat2</a></li>
+                    <li><a href="https://www.twitch.tv/philiminecraft">Twitch</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
